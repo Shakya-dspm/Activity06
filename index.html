@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Epic Media Reviews</title>
 </head>
+
 <body>
     <h1>🎮 Epic Media: Movies & Games Arena</h1>
     <p>Your ultimate destination for honest reviews, ratings, and stats.</p>
 
-<hr>
+    <hr>
     <h2>🔥 Featured Reviews (Click to Expand)</h2>
     <details>
         <Summary><strong>Review 1: Grand Theft Auto V (Video Game)</strong></Summary>
-        <p>Grand Theft Auto V is a masterpiece of open-world gaming, offering an immersive experience with a compelling story and endless activities.</p>
+        <p>Grand Theft Auto V is a masterpiece of open-world gaming, offering an immersive experience with a compelling
+            story and endless activities.</p>
     </details>
     <br>
     <details>
         <summary><strong>Review 2: Interstellar (Sci-Fi Movie)</strong></summary>
-        <p>Interstellar (2014) is an epic sci-fi drama directed by Christopher Nolan. It follows a team of astronauts who travel through a wormhole in search of a habitable planet to save humanity from a dying, famine-stricken Earth.</p>
+        <p>Interstellar (2014) is an epic sci-fi drama directed by Christopher Nolan. It follows a team of astronauts
+            who travel through a wormhole in search of a habitable planet to save humanity from a dying, famine-stricken
+            Earth.</p>
     </details>
 
-<hr>
+    <hr>
     <h2>📊 Current Ratings & System Stats</h2>
-    
+
     <h3>User Ratings:</h3>
-    
+
     <label>GTA V Community Score: </label>
     <progress value="9.2" max="10" style="width: 100px; accent-color: green;">(9.2 / 10)</progress> (9.2 / 10)
     <br><br>
@@ -35,16 +40,41 @@
     <br><br>
 
     <h3>System Status:</h3>
-    
+
     <label>Downloding Next Game Patch: </label>
     <progress value="75" max="100">75%</progress> (75% Complete)
     <br><br>
 
     <label>Server Optimization Process: </label>
     <progress value="30" max="100">30%</progress> (30% Complete)
+    <br>
 
+    <hr>
+<br>
+    <h2>🗳️ Quick Community Poll</h2>
+    <p>What is your currunt favorite gaming platform?</p>
 
-<hr>
+    <label>Type or Select your Gaming Device: </label><br>
+    <input list="device" name="device" placeholder="Select or Type">
+    <datalist id="device">
+        <option value="Nintendo Switch">
+        <option value="PlayStation 5 Slim">
+    </datalist>
+    <br><br>
+
+    <label>Rate your gaming setup excitement level: </label>
+    <br>
+    Low
+    <input type="range" id="excitement" min="1" max="10" value="8">
+    High
+    <br><br>
+
+    <input type="submit" value="Cast Vote">
+
+    <hr>    
+    <p>Created by ICT Students Group | Powered by HTML5 Semantic Elements.</p>
+
 
 </body>
+
 </html>
